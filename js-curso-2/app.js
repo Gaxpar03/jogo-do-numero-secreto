@@ -16,7 +16,7 @@ function exibirTexto(tag, texto){
 mensagemInicio();
 limparCampo();
 let listaNumerosSorteados = [];
-let numeroDisponiveis = 10;
+let numeroDisponiveis = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 let campo = document.querySelector(tag);
