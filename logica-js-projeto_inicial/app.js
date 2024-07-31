@@ -22,7 +22,7 @@ while(chute != numeroSecreto){
 
 // Operador ternário: testo utilizado para que aquilo que está sendo desenvovlido seja dinâmico para a sua utilização.
 let palavraTentativa = tentativa > 1 ? 'tentativas' : 'tentativa';
-alert(`Isso ai você descobriu o ${numeroSecreto} com ${tentativa} ${palavraTentativa}.`);
+alert(`Isso ai você descobriu o ${numeroSecreto} com ${tentativa}  ${palavraTentativa}.`);
 // if(tentativa == 1){
 //     alert(`Isso ai você descobriu o ${numeroSecreto} com ${tentativa} tentativa`);
 // }else{
